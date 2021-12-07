@@ -93,6 +93,10 @@ a:hover{
     color: white;
     margin: 25px;
 }
+.white-text-title{
+    color: white;
+    margin: 25px;
+}
 .buttonsdiv{
     display: flex;
 
@@ -112,6 +116,7 @@ a:hover{
 .serviceslist{
     /* border: 2px solid white; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .content{
@@ -121,8 +126,9 @@ a:hover{
     align-items: center;
 }
 .content-img{
-    height: 200px;
-    width: 200px;
+    width: 266px;
+    height: 180px;
+    margin: 20px
 }
 
 
@@ -141,8 +147,8 @@ a:hover{
     }
     .container{
         /* border: 2px solid white; */
-        margin: 0px 30px 0px 30px;
-        font-size: small;
+        margin: 14px 30px 0px 30px;
+        font-size: 10px;
   }
   .bannerarea{
       justify-content: center;
@@ -153,6 +159,14 @@ a:hover{
   .banner{
       display: none;
   }
+  .content-img{
+    width: 100px;
+    height: 72px;
+    margin: 10px;
+}
+.white-text{
+    font-size: 8px;
+}
 }
 
 @media only screen and (max-width:1024px){
